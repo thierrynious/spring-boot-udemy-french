@@ -13,10 +13,12 @@ import jakarta.validation.constraints.Positive;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Data
 public class Transaction {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -32,9 +34,9 @@ public class Transaction {
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate date;
 
+    private LocalDateTime createdAt;
+
     @JsonIgnore
     private String internNote;
 }
-
-
 

@@ -1,0 +1,50 @@
+2026-06-09T20:07:10.738+02:00  INFO 30008 --- [financeapp] [restartedMain] c.f.financeapp.FinanceappApplication     : Starting FinanceappApplication using Java 21.0.9 with PID 30008 (C:\projects\Udemy Kurs Spring Boot\financeapp-french\target\classes started by Dell in C:\projects\Udemy Kurs Spring Boot\financeapp-french)
+2026-06-09T20:07:10.742+02:00 DEBUG 30008 --- [financeapp] [restartedMain] c.f.financeapp.FinanceappApplication     : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-09T20:07:10.742+02:00  INFO 30008 --- [financeapp] [restartedMain] c.f.financeapp.FinanceappApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-06-09T20:07:10.803+02:00  INFO 30008 --- [financeapp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-09T20:07:10.804+02:00  INFO 30008 --- [financeapp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-09T20:07:11.571+02:00  INFO 30008 --- [financeapp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09T20:07:11.649+02:00  INFO 30008 --- [financeapp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2026-06-09T20:07:12.298+02:00  INFO 30008 --- [financeapp] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-06-09T20:07:12.315+02:00  INFO 30008 --- [financeapp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-09T20:07:12.316+02:00  INFO 30008 --- [financeapp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09T20:07:12.355+02:00  INFO 30008 --- [financeapp] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1550 ms
+2026-06-09T20:07:12.568+02:00  INFO 30008 --- [financeapp] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-09T20:07:12.654+02:00  INFO 30008 --- [financeapp] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-09T20:07:13.178+02:00  INFO 30008 --- [financeapp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09T20:07:13.226+02:00  INFO 30008 --- [financeapp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-09T20:07:13.480+02:00  INFO 30008 --- [financeapp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-06-09T20:07:13.485+02:00  INFO 30008 --- [financeapp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-09T20:07:13.519+02:00  WARN 30008 --- [financeapp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09T20:07:13.550+02:00  INFO 30008 --- [financeapp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-09T20:07:14.609+02:00  INFO 30008 --- [financeapp] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-09T20:07:14.687+02:00  INFO 30008 --- [financeapp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09T20:07:14.777+02:00  INFO 30008 --- [financeapp] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-09T20:07:15.661+02:00  WARN 30008 --- [financeapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09T20:07:15.957+02:00  INFO 30008 --- [financeapp] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-06-09T20:07:16.016+02:00  INFO 30008 --- [financeapp] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-06-09T20:07:16.020+02:00  INFO 30008 --- [financeapp] [restartedMain] c.f.financeapp.FinanceappApplication     : Started FinanceappApplication in 5.875 seconds (process running for 6.575)
+2026-06-09T20:09:21.465+02:00  INFO 30008 --- [financeapp] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09T20:09:21.465+02:00  INFO 30008 --- [financeapp] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-09T20:09:21.465+02:00  INFO 30008 --- [financeapp] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-09T20:09:21.712+02:00  INFO 30008 --- [financeapp] [http-nio-8081-exec-1] c.f.financeapp.service.UserService       : Debut de l'inscription de l'utilisateur : max
+2026-06-09T20:09:21.901+02:00  INFO 30008 --- [financeapp] [http-nio-8081-exec-1] c.f.financeapp.service.UserService       : Utilisateur enregistré avec succes avec l'ID 1
+2026-06-09T20:10:32.669+02:00  WARN 30008 --- [financeapp] [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.financemanager.financeapp.controller.UserController.register(com.financemanager.financeapp.model.User) with 3 errors: [Field error in object 'user' on field 'username': rejected value []; codes [NotBlank.user.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.username,username]; arguments []; default message [username]]; default message [Le nom d'utilisateur est obligatoire]] [Field error in object 'user' on field 'email': rejected value [max@]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@6b090134,.*]; default message [L'adresse email est invalide]] [Field error in object 'user' on field 'password': rejected value [123]; codes [Size.user.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.password,password]; arguments []; default message [password],2147483647,8]; default message [Le mot de passe doit contenir au moins 8 caractères]] ]
+2026-06-09T20:11:35.209+02:00  INFO 30008 --- [financeapp] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-09T20:11:35.225+02:00  INFO 30008 --- [financeapp] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-09T20:11:35.229+02:00  INFO 30008 --- [financeapp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09T20:11:35.233+02:00  WARN 30008 --- [financeapp] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Die Datenbank wurde bereits geschlossen (um das automatische Schliessen beim Stopp der VM zu deaktivieren, die Datenbank URL mit ";DB_CLOSE_ON_EXIT=FALSE" ergänzen)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-06-09T20:11:35.233+02:00  INFO 30008 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-09T20:11:35.235+02:00  INFO 30008 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

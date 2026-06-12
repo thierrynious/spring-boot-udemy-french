@@ -3,7 +3,6 @@ package com.financemanager.financeapp.controller;
 import com.financemanager.financeapp.model.Transaction;
 import com.financemanager.financeapp.service.TransactionService;
 import jakarta.validation.Valid;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -44,7 +43,7 @@ public class TransactionController {
         Transaction found = service.getById(id);
         if (found != null) {
             return ResponseEntity.ok(found);
-        }else {
+        } else {
             return ResponseEntity.notFound().build();
         }
     }
