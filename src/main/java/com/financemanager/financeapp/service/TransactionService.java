@@ -7,10 +7,14 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 @Service
 public class TransactionService {
 
     private final TransactionRepository repository;
+    private static final Logger log = LoggerFactory.getLogger(TransactionService.class);
 
     public TransactionService(TransactionRepository repository) {
         this.repository = repository;
@@ -21,10 +25,13 @@ public class TransactionService {
     }
 
     public Transaction save(Transaction transaction) {
-
         // Logique métier :
-        // ajouter automatiquement la date et l'heure de création
+        log.info("Saving transaction {}", transaction.getTitle());
         transaction.setCreatedAt(LocalDateTime.now());
+
+        if (transaction.getAmount() <= 0) {
+            log.warn("Montant invalide : {}", transaction.getAmount());
+        }
 
         return repository.save(transaction);
     }

@@ -1,0 +1,182 @@
+2026-06-17T11:51:10.763+02:00  INFO 2316 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : Starting TransactionServiceLoggingTest using Java 21.0.9 with PID 2316 (started by Dell in C:\projects\Udemy Kurs Spring Boot\financeapp-french)
+2026-06-17T11:51:10.769+02:00  INFO 2316 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : No active profile set, falling back to 1 default profile: "default"
+2026-06-17T11:51:11.933+02:00  INFO 2316 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17T11:51:12.043+02:00  INFO 2316 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 4 JPA repository interfaces.
+2026-06-17T11:51:12.730+02:00  INFO 2316 --- [financeapp] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17T11:51:12.859+02:00  INFO 2316 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-17T11:51:13.823+02:00  INFO 2316 --- [financeapp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17T11:51:13.884+02:00  INFO 2316 --- [financeapp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-17T11:51:14.156+02:00  INFO 2316 --- [financeapp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-06-17T11:51:14.162+02:00  INFO 2316 --- [financeapp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-17T11:51:14.214+02:00  WARN 2316 --- [financeapp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-17T11:51:14.271+02:00  INFO 2316 --- [financeapp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17T11:51:15.928+02:00  INFO 2316 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17T11:51:16.015+02:00  INFO 2316 --- [financeapp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T11:51:16.155+02:00  INFO 2316 --- [financeapp] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-17T11:51:17.584+02:00  WARN 2316 --- [financeapp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-17T11:51:18.292+02:00  INFO 2316 --- [financeapp] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-06-17T11:51:18.476+02:00  INFO 2316 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : Started TransactionServiceLoggingTest in 8.251 seconds (process running for 10.661)
+2026-06-17T11:51:19.237+02:00  INFO 2316 --- [financeapp] [main] c.f.f.service.TransactionService         : Saving transaction Loyer
+2026-06-17T11:51:19.372+02:00  INFO 2316 --- [financeapp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T11:51:19.378+02:00  INFO 2316 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-17T11:51:19.384+02:00  INFO 2316 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-17T13:20:23.713+02:00  INFO 8548 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : Starting TransactionServiceLoggingTest using Java 21.0.9 with PID 8548 (started by Dell in C:\projects\Udemy Kurs Spring Boot\financeapp-french)
+2026-06-17T13:20:23.715+02:00  INFO 8548 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : No active profile set, falling back to 1 default profile: "default"
+2026-06-17T13:20:24.741+02:00  INFO 8548 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17T13:20:24.850+02:00  INFO 8548 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 4 JPA repository interfaces.
+2026-06-17T13:20:25.536+02:00  INFO 8548 --- [financeapp] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17T13:20:25.656+02:00  INFO 8548 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-17T13:20:26.485+02:00  INFO 8548 --- [financeapp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17T13:20:26.555+02:00  INFO 8548 --- [financeapp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-17T13:20:26.800+02:00  INFO 8548 --- [financeapp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-06-17T13:20:26.802+02:00  INFO 8548 --- [financeapp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-17T13:20:26.833+02:00  WARN 8548 --- [financeapp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-17T13:20:26.864+02:00  INFO 8548 --- [financeapp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17T13:20:27.950+02:00  INFO 8548 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17T13:20:28.034+02:00  INFO 8548 --- [financeapp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T13:20:28.141+02:00  INFO 8548 --- [financeapp] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-17T13:20:29.415+02:00  WARN 8548 --- [financeapp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-17T13:20:29.981+02:00  INFO 8548 --- [financeapp] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-06-17T13:20:30.123+02:00  INFO 8548 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : Started TransactionServiceLoggingTest in 6.863 seconds (process running for 8.939)
+2026-06-17T13:20:30.744+02:00  INFO 8548 --- [financeapp] [main] c.f.f.service.TransactionService         : Saving transaction Testbuchung
+2026-06-17T13:20:30.744+02:00  WARN 8548 --- [financeapp] [main] c.f.f.service.TransactionService         : Montant invalide : 0.0
+2026-06-17T13:20:30.791+02:00  INFO 8548 --- [financeapp] [main] c.f.f.service.TransactionService         : Saving transaction Loyer
+2026-06-17T13:20:30.918+02:00  INFO 8548 --- [financeapp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T13:20:30.930+02:00  INFO 8548 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-17T13:20:30.935+02:00  INFO 8548 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-17T14:27:47.673+02:00  INFO 13232 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : Starting TransactionServiceLoggingTest using Java 21.0.9 with PID 13232 (started by Dell in C:\projects\Udemy Kurs Spring Boot\financeapp-french)
+2026-06-17T14:27:47.676+02:00  INFO 13232 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : No active profile set, falling back to 1 default profile: "default"
+2026-06-17T14:27:48.590+02:00  INFO 13232 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17T14:27:48.679+02:00  INFO 13232 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 4 JPA repository interfaces.
+2026-06-17T14:27:49.369+02:00  INFO 13232 --- [financeapp] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17T14:27:49.501+02:00  INFO 13232 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-17T14:27:50.392+02:00  INFO 13232 --- [financeapp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17T14:27:50.453+02:00  INFO 13232 --- [financeapp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-17T14:27:50.664+02:00  INFO 13232 --- [financeapp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-06-17T14:27:50.667+02:00  INFO 13232 --- [financeapp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-17T14:27:50.702+02:00  WARN 13232 --- [financeapp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-17T14:27:50.731+02:00  INFO 13232 --- [financeapp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17T14:27:51.976+02:00  INFO 13232 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17T14:27:52.078+02:00  INFO 13232 --- [financeapp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T14:27:52.216+02:00  INFO 13232 --- [financeapp] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-17T14:27:53.536+02:00  WARN 13232 --- [financeapp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-17T14:27:54.009+02:00  INFO 13232 --- [financeapp] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-06-17T14:27:54.155+02:00  INFO 13232 --- [financeapp] [main] c.f.f.s.TransactionServiceLoggingTest    : Started TransactionServiceLoggingTest in 7.042 seconds (process running for 9.03)
+2026-06-17T14:27:54.794+02:00  INFO 13232 --- [financeapp] [main] c.f.f.service.TransactionService         : Saving transaction Loyer
+2026-06-17T14:27:54.902+02:00  INFO 13232 --- [financeapp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T14:27:54.906+02:00  INFO 13232 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-17T14:27:54.915+02:00  INFO 13232 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-17T16:24:30.644+02:00  INFO 24708 --- [financeapp] [main] c.f.f.FinanceappApplicationTests         : Starting FinanceappApplicationTests using Java 21.0.9 with PID 24708 (started by Dell in C:\projects\Udemy Kurs Spring Boot\financeapp-french)
+2026-06-17T16:24:30.648+02:00  INFO 24708 --- [financeapp] [main] c.f.f.FinanceappApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-06-17T16:24:33.031+02:00  INFO 24708 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17T16:24:33.169+02:00  INFO 24708 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 4 JPA repository interfaces.
+2026-06-17T16:24:34.444+02:00  INFO 24708 --- [financeapp] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17T16:24:34.682+02:00  INFO 24708 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-17T16:24:36.298+02:00  INFO 24708 --- [financeapp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17T16:24:36.385+02:00  INFO 24708 --- [financeapp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-17T16:24:37.387+02:00  INFO 24708 --- [financeapp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-06-17T16:24:37.390+02:00  INFO 24708 --- [financeapp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-17T16:24:37.466+02:00  WARN 24708 --- [financeapp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-17T16:24:37.535+02:00  INFO 24708 --- [financeapp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17T16:24:40.737+02:00  INFO 24708 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17T16:24:41.018+02:00  INFO 24708 --- [financeapp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T16:24:41.202+02:00  INFO 24708 --- [financeapp] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-17T16:24:44.347+02:00  WARN 24708 --- [financeapp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-17T16:24:45.080+02:00  INFO 24708 --- [financeapp] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-06-17T16:24:45.301+02:00  INFO 24708 --- [financeapp] [main] c.f.f.FinanceappApplicationTests         : Started FinanceappApplicationTests in 15.824 seconds (process running for 20.272)
+2026-06-17T16:24:46.350+02:00  INFO 24708 --- [financeapp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.financemanager.financeapp.service.TransactionServiceLoggingTest]: TransactionServiceLoggingTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-17T16:24:46.371+02:00  INFO 24708 --- [financeapp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.financemanager.financeapp.FinanceappApplication for test class com.financemanager.financeapp.service.TransactionServiceLoggingTest
+2026-06-17T16:24:46.374+02:00  INFO 24708 --- [financeapp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.financemanager.financeapp.service.TransactionServiceLoggingTest]: TransactionServiceLoggingTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-17T16:24:46.377+02:00  INFO 24708 --- [financeapp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.financemanager.financeapp.FinanceappApplication for test class com.financemanager.financeapp.service.TransactionServiceLoggingTest
+2026-06-17T16:24:46.420+02:00  INFO 24708 --- [financeapp] [main] c.f.f.service.TransactionService         : Saving transaction Loyer
+2026-06-17T16:24:47.155+02:00  INFO 24708 --- [financeapp] [main] c.f.f.service.TransactionService         : Saving transaction Test
+2026-06-17T16:24:47.208+02:00  INFO 24708 --- [financeapp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.financemanager.financeapp.controller.TransactionControllerTest]: TransactionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-17T16:24:47.324+02:00  INFO 24708 --- [financeapp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.financemanager.financeapp.FinanceappApplication for test class com.financemanager.financeapp.controller.TransactionControllerTest
+2026-06-17T16:24:47.332+02:00  INFO 24708 --- [financeapp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.financemanager.financeapp.controller.TransactionControllerTest]: TransactionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-17T16:24:47.348+02:00  INFO 24708 --- [financeapp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.financemanager.financeapp.FinanceappApplication for test class com.financemanager.financeapp.controller.TransactionControllerTest
+2026-06-17T16:24:47.378+02:00  INFO 24708 --- [financeapp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-06-17T16:24:47.528+02:00  INFO 24708 --- [financeapp] [main] c.f.f.c.TransactionControllerTest        : Starting TransactionControllerTest using Java 21.0.9 with PID 24708 (started by Dell in C:\projects\Udemy Kurs Spring Boot\financeapp-french)
+2026-06-17T16:24:47.530+02:00  INFO 24708 --- [financeapp] [main] c.f.f.c.TransactionControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2026-06-17T16:24:48.585+02:00  INFO 24708 --- [financeapp] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-06-17T16:24:48.585+02:00  INFO 24708 --- [financeapp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-06-17T16:24:48.590+02:00  INFO 24708 --- [financeapp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-06-17T16:24:48.667+02:00  INFO 24708 --- [financeapp] [main] c.f.f.c.TransactionControllerTest        : Started TransactionControllerTest in 1.292 seconds (process running for 23.638)
+2026-06-17T16:24:49.525+02:00  WARN 24708 --- [financeapp] [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot map `null` into type `double` (set `DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES` to 'false' to allow)]
+2026-06-17T16:24:50.085+02:00  WARN 24708 --- [financeapp] [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot map `null` into type `double` (set `DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES` to 'false' to allow)]
+2026-06-17T16:24:50.179+02:00  INFO 24708 --- [financeapp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.financemanager.financeapp.repository.TransactionRepositoryTest]: TransactionRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-17T16:24:50.278+02:00  INFO 24708 --- [financeapp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.financemanager.financeapp.FinanceappApplication for test class com.financemanager.financeapp.repository.TransactionRepositoryTest
+2026-06-17T16:24:50.279+02:00  INFO 24708 --- [financeapp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.financemanager.financeapp.repository.TransactionRepositoryTest]: TransactionRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-17T16:24:50.311+02:00  INFO 24708 --- [financeapp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.financemanager.financeapp.FinanceappApplication for test class com.financemanager.financeapp.repository.TransactionRepositoryTest
+2026-06-17T16:24:50.340+02:00  INFO 24708 --- [financeapp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-06-17T16:24:50.492+02:00  INFO 24708 --- [financeapp] [main] c.f.f.r.TransactionRepositoryTest        : Starting TransactionRepositoryTest using Java 21.0.9 with PID 24708 (started by Dell in C:\projects\Udemy Kurs Spring Boot\financeapp-french)
+2026-06-17T16:24:50.493+02:00  INFO 24708 --- [financeapp] [main] c.f.f.r.TransactionRepositoryTest        : No active profile set, falling back to 1 default profile: "default"
+2026-06-17T16:24:50.968+02:00  INFO 24708 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-17T16:24:51.000+02:00  INFO 24708 --- [financeapp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2026-06-17T16:24:51.061+02:00  INFO 24708 --- [financeapp] [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-06-17T16:24:51.149+02:00  INFO 24708 --- [financeapp] [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:5b8150cc-3fda-4a9b-a1f0-1b7e69b2e8fe;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-06-17T16:24:51.237+02:00  INFO 24708 --- [financeapp] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-17T16:24:51.310+02:00  INFO 24708 --- [financeapp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-17T16:24:51.318+02:00  WARN 24708 --- [financeapp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-17T16:24:51.321+02:00  INFO 24708 --- [financeapp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:5b8150cc-3fda-4a9b-a1f0-1b7e69b2e8fe]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 5B8150CC-3FDA-4A9B-A1F0-1B7E69B2E8FE/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-17T16:24:51.506+02:00  INFO 24708 --- [financeapp] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-17T16:24:51.552+02:00  INFO 24708 --- [financeapp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T16:24:51.872+02:00  INFO 24708 --- [financeapp] [main] c.f.f.r.TransactionRepositoryTest        : Started TransactionRepositoryTest in 1.532 seconds (process running for 26.842)
+2026-06-17T16:24:52.949+02:00  INFO 24708 --- [financeapp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-17T16:24:52.961+02:00  INFO 24708 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-17T16:24:52.979+02:00  INFO 24708 --- [financeapp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-17T16:24:52.984+02:00  INFO 24708 --- [financeapp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

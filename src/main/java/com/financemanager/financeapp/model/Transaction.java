@@ -19,6 +19,12 @@ import java.time.LocalDateTime;
 @Data
 public class Transaction {
 
+    public Transaction(String loyer, double v, LocalDate now) {
+    }
+    public Transaction() {
+
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -38,5 +44,7 @@ public class Transaction {
 
     @JsonIgnore
     private String internNote;
+
+
 }
 

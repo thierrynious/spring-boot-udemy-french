@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import java.net.URI;
 import java.util.List;
 
-import static org.apache.logging.log4j.util.LambdaUtil.getAll;
-
 @RestController
 @RequestMapping("/api/transactions")
 public class TransactionController {
@@ -22,8 +20,8 @@ public class TransactionController {
     }
 
     @GetMapping
-    public ResponseEntity<Object[]> getAllTransactions() {
-        return ResponseEntity.ok(getAll());
+    public ResponseEntity<List<Transaction>> getAllTransactions() {
+        return ResponseEntity.ok(service.getAll());
     }
 
     @PostMapping
