@@ -1,12 +1,13 @@
 package com.financemanager.financeapp;
 
-import com.financemanager.financeapp.model.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.scheduling.annotation.EnableAsync;
 
-import java.util.Optional;
-
+@EnableAsync
 @SpringBootApplication
+@EnableJpaAuditing
 public class FinanceappApplication {
 
 	public static void main(String[] args) {
